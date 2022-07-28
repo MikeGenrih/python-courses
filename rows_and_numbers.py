@@ -6,8 +6,8 @@ print(number)
 print(int(number))
 print(int(number)**4)
 print(int(number)**0.5)
-same_value = (number) % 2
-print("division remainder",(same_value))
+
+print("division remainder",((number) % 2))
 
 
 
