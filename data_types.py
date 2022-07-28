@@ -8,15 +8,15 @@ variable_2 = "alkon"
 variable_3 = "heavy"
 variable_4 = "sun"
 variable_5 = "mars"
-print("1",type(variable_1))
-print("2",type(variable_2))
-print("3",type(variable_3))
-print("4",type(variable_4))
-print("5",type(variable_5))
-print("6",type(int_1))
-print("7",type(int_2))
-print("8",type(int_3))
-print("9",type(int_4))
-print("10",type(int_5))
+print(str(variable_1),type(variable_1))
+print(str(variable_2),type(variable_2))
+print(str(variable_3),type(variable_3))
+print(str(variable_4),type(variable_4))
+print(str(variable_5),type(variable_5))
+print(int_1,type(int_1))
+print(int_2,type(int_2))
+print(int_3,type(int_3))
+print(int_4,type(int_4))
+print(int_5,type(int_5))
 
 
