@@ -1,6 +1,6 @@
 name = str(input("What is your name"))
 str_1 = str.strip(name)
-print(f"hello", name)
+print(f"hello", name) #
 number = float(input("enter a number"))
 print(number)
 print(int(number))
