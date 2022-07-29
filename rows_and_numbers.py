@@ -5,12 +5,13 @@ result = f"Hello {str_1}, nice to e-meet you! "
 
 print(result) #
 number = float(input("enter a number"))
+
 print(number)
 print(int(number))
 print(int(number)**4)
 print(int(number)**0.5)
 
-print("division remainder",((number) % 2))
+print("division remainder",(int(number) % 2))
 
 
 
