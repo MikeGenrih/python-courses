@@ -9,8 +9,8 @@ print(f"task 1 - num_{first=} not equal num_{second=}! it is {compare}")  # here
 Combination_1 = 5 == 5
 Combination_2 = 5 <= 5
 Combination_3 = 5 >= 5
-Combination_4 = not 5 != 5
-Combination_5 = not 5 > 5
+Combination_4 = not 5 != 5  # recorrected
+Combination_5 = not 5 > 5  ## recorrected
 resulr = Combination_1 and Combination_2 and Combination_3 and Combination_4 and Combination_5
 print(f"task 2 {Combination_1=}! {Combination_2=}! {Combination_3=} {Combination_4=} {Combination_5=}!") # here result priviouse task
 print(f"task 2.1 {resulr=}")
