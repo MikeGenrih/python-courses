@@ -5,7 +5,7 @@ second =5
 compare = first != second
 print(f"task 1 - num_{first=} not equal num_{second=}! it is {compare}")  # here need compare two numbers
 
-# 2 task   Наведи усі комбінації порівнянь для 5 _ 5, при яких результат буде True
+# 2 task   Наведи усі комбінації порівняhнь для 5 _ 5, при яких результат буде True
 Combination_1 = 5 == 5
 Combination_2 = 5 <= 5
 Combination_3 = 5 >= 5
