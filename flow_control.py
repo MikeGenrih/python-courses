@@ -58,4 +58,4 @@ elif x ==y:
 else:
     print(f"{x} less {y}")
 ####################################
-print( f" digit number {len(val_int)}")
+print( f" digit number {len(str(a))}")
