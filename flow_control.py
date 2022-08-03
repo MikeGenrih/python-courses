@@ -48,7 +48,7 @@ if b == a:
 
 else:
     a = float(a)
-print(type(a), a)
+print (f" {x}{sign}{y} = {a} answer is {(type(a))}")
 
 
 
