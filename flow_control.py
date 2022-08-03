@@ -1,4 +1,4 @@
-x = (input("num first"))
+x = (input("num first--->"))
 #match x1 = "." in (x):
 if ("." in (x)):
     x = float(x)                                     # in this block the text from the user
@@ -7,12 +7,12 @@ else:                                                # is converted to an intege
 
 print(type(x))
 #################################
-sign = input("enter the sign")
+sign = input("enter the sign--->")
 while not sign in ("+,-,/,*,**,%,"):                 #in this block, I tried to loop the code
     print(f"{sign=} is not correct.+,-,/,*,**,%,")   # until the user enters the correct sign
     sign = input("sign")
 #################################
-y = (input("num second"))
+y = (input("num second--->"))
 
 if ("." in (y)):                                     #in this block the text from the user
     y = float(y)                                     # is converted to an integer or fractional number
@@ -51,6 +51,11 @@ else:                                                  # a float
 print (f" {x}{sign}{y} = {a} answer is {(type(a))}")
 ###################################
 
-
-
-
+if x > y:
+    print(f"{x} more {y}")
+elif x ==y:
+    print(f"{x} same {y}")                             # comparing two numbers
+else:
+    print(f"{x} less {y}")
+####################################
+print( f" digit number {len(val_int)}")
