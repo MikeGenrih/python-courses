@@ -35,13 +35,15 @@ elif sign == "%":
 else:
     print("something wrong try again ")
 
+
+
 ###################################  4.0000
-b = int(a)
-if b == a:
-    a = int(a)                                         #The calculator must return a result of type int if the operands
+#b = int(a)
+#if b == a:
+    #a = int(a)                                         #The calculator must return a result of type int if the operands
                                                        # wereof type int. Or return a float if at least one operand was
-else:                                                  # a float
-    a = float(a)
+#else:                                                  # a float
+    #a = float(a)
 print (f" {x}{sign}{y} = {a} answer is {(type(a))}")
 ###################################
 
