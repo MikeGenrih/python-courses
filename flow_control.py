@@ -1,43 +1,37 @@
 x = (input("num first--->"))
 #match x1 = "." in (x):
-if ("." in (x)):
-    x = float(x)                                     # in this block the text from the user
-else:                                                # is converted to an integer or fractional number
-    x = int(x)
-
-print(type(x))
+x = float(x) if ("." in (x)) else int(x)         # in this block the text from the user
+                                                     # is converted to an integer or fractional number
+print(f"type num first is {type(x)}")                 #recorrect
 #################################
 sign = input("enter the sign--->")
-while not sign in ("+,-,/,*,**,%,"):                 #in this block, I tried to loop the code
+while not sign in ("+-/**%"):                        #in this block, I tried to loop the code
     print(f"{sign=} is not correct.+,-,/,*,**,%,")   # until the user enters the correct sign
     sign = input("sign")
 #################################
 y = (input("num second--->"))
 
-if ("." in (y)):                                     #in this block the text from the user
-    y = float(y)                                     # is converted to an integer or fractional number
-else:
-    y = int(y)
+y = float(y) if ("." in (y)) else int(y)
 
-print(type(y))
+print(f"type num second is {type(y)}")              #recorrect
 ##################################
 
 if sign == "+":
-    a = (x + y)
+    a = x + y
 elif sign == "-":
-    a = (x - y)
+    a = x - y
 elif sign == "/":
     if y == 0:
         print("you can't devide by zero")            # here are the calculations of the calculator
     else:
-       a = (x / y)
+       a = x / y
 
 elif sign == "*":
-    a = (x * y)
+    a = x * y
 elif sign == "**":
-    a = (x ** y)
+    a = x ** y
 elif sign == "%":
-    a = (x % y)
+    a = x % y
 else:
     print("something wrong try again ")
 
