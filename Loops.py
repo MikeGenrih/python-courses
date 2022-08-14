@@ -26,10 +26,14 @@ for i, letter in enumerate(symba):
                 print("3 figures is finded.")
                 break
             else:
-                None
+                print(f"loop is done correct")
+        else:
+            None
     except IndexError as error:
         None
         continue
+
+print(f"loop is  correct")
 print(f"{''.join(vowels)}")
 print(f"{''.join(up)}")
 print(f"space: {' '.join(str(i) for i in spase)}")
