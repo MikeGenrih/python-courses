@@ -1,2 +1,1 @@
-print(id("a"))
-print(id("A"))
+if 1

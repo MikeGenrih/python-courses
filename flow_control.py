@@ -1,6 +1,3 @@
-x = ""
-sign = ""
-y = ""
 while True:                                           #(x == "exit") | (sign == "exit") | (y == "exit")
     try:
         x = (input("num first--->"))
