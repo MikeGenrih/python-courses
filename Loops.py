@@ -34,8 +34,6 @@ print(f"{''.join(vowels)}")
 print(f"{''.join(up)}")
 print(f"space: {' '.join(str(i) for i in spase)}")
 
-#print(f"3 numbers: {''.join(figures) for i in figures)}")
-
 
 
 
