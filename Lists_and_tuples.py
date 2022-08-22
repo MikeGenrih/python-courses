@@ -1,7 +1,7 @@
 # 1 . string from the user and prints every third word
 user = input('Enter any sring: ')
                                                        #seafood crab massels prawns salmon squid tuna beef chicken duck
-print(f'every third word:{"!  ".join(user.split()[2::3])}')
+print(f'every third word:{)}')
 
 # 2  list comprehension
 initial_list = [1,2.1,"f","2",3,"1",18,"df",]
