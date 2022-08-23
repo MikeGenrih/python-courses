@@ -4,7 +4,7 @@
 # print(f"{'\n'[::10]vocabulary}")
 vocabulary = {i: chr(i) for i in range(0, 257)}
 
-print(vocabulary)
+print(str(vocabulary))
 #############################################3##
 text = input('Enter text: ')   #  #lipps
 key = int(input('enter number from 1 to 25: '))   #4
