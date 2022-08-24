@@ -6,6 +6,9 @@ dict_2 = {i for i in text_2 if i.isalpha()}
 output_letter = dict_1 & dict_2
 print(f' \nList of letters that are present in both texts is    {". ".join(output_letter)} ')
 
+
+
+
 num_1 = {i for i in text_1 if i.isdigit()}
 num_2 = {i for i in text_2 if i.isdigit()}
 # print(num_1)
@@ -34,8 +37,8 @@ print(f" intersection operater: {one & two & three}\n")
 ###########################################################
 
 print(f" DIFFERENCE subtracts the second from the base and shows the remainder ")
-Difference = three.difference(two).difference(one)
-print(f" intersection metod:    {Difference}")
+difference = three.difference(two).difference(one)
+print(f" intersection metod:    {difference}")
 print(f" intersection operater: {three - two - one}\n")
 
 ######################################################

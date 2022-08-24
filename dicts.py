@@ -17,10 +17,14 @@ alph_dict = dict(zip(string.ascii_lowercase, range(1, 27)))
 
 new_text = []
 for i in text:
+
     if i in alph_dict:
+
         new = alph_dict[i] + key
         new = (int(new) - 26) if (int(new) > 26) else new
         new_text.append(list(alph_dict.keys())[list(alph_dict.values()).index(new)])
+    else:                                # recorrected
+        new_text.append(i)               # recorrected
 
 print(f'your encrypted text: {("".join(new_text))}')
 
