@@ -6,6 +6,7 @@ vocabulary = {i: chr(i) for i in range(0, 257)}
 
 print(str(vocabulary))
 #############################################3##
+# coder
 text = input('Enter text: ')   #  #lipps
 key = int(input('enter number from 1 to 25: '))   #4
 
