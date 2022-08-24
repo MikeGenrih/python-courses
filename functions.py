@@ -10,12 +10,12 @@ def sum_of_int(start,end):    # sum of integers
         for i in range(start, end+1):
             sum += i
         return(sum)
-# print("sum of integers")
-# start = int(input("start:  "))
-# end = int(input("end:  "))
-# final = print(sum_of_int(start,end))
-# #######################################################################
-# 1000000000 sec  = 31 years 8 mouht 9 days 1 hour 46 min 40 sec
+print("Sum of integers")
+start = int(input("start:  "))
+end = int(input("end:  "))
+final = print(sum_of_int(start,end))
+#######################################################################
+#####1000000000 sec  = 31 years 8 mouht 9 days 1 hour 46 min 40 sec
 
 def times(sec):
     import time
@@ -28,25 +28,32 @@ def times(sec):
     r = ([str(i) for i in r])
     r = (":".join(r))
     return(r)
-# print("are you intresting how many days are in seconds?")
-# seconds = int(input("Enter the seconds:  "))
-# r = print(times(seconds))
+print("are you intresting how many days are in seconds?")
+seconds = int(input("Enter the seconds:  "))
+r = print(times(seconds))
 
 #########################################################################
+
 list = [7, 57, 32, 98, 70, 958]
+print(f" summa all numbers in the {list=}")
+#print(f" Check : {sum(list)}")      # jast Check
+
 
 def sum(num):
-    counter = 0
-    for i in num:                     # sum numbers lists
-        counter += i
-    return counter
+    summa = 0
+    for i in num:                     # sum numbers lists with help For
+        summa += i
+    return summa
 
-sum = print(f' For : {sum(list)}')
-
-def sum(num):
-	count = 0
-	while count < len(num):
-		sum = sum(num)
-		count += 1
-	return sum
-print(f' While : {sum(list)}')
+sum = print(f' For   : {sum(list)}')
+#################################################
+def sums(num):
+    count = 0
+    summa = 0
+    while count < len(num):           # sum nummbers list with help While
+        summa += list[int(count)]
+        count += 1
+        # print(summa)
+        # print(count)
+    return summa
+print(f' While : {sums(list)}')
