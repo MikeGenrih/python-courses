@@ -14,10 +14,3 @@
 # c.pop(2)
 # a.extend(c)
 # print(a)
-
-
-t_set = {26, 'hi', 2, 3.4}
-y_set = {2, 'hi', 2.5, 2}
-
-t_set -= y_set
-print(t_set)
