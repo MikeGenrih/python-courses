@@ -13,4 +13,12 @@
 # b.append(4)
 # c.pop(2)
 # a.extend(c)
-# print(a)
+# # print(a)time
+# def f(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         print(n)
+#
+#         return n * f(n-1)
+# print(f(5))

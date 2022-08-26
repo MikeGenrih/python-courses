@@ -32,8 +32,8 @@ print("are you intresting how many days are in seconds?")
 seconds = int(input("Enter the seconds:  "))
 r = print(times(seconds))
 
-#########################################################################
-
+# #########################################################################
+#
 list = [7, 57, 32, 98, 70, 958]
 print(f" summa all numbers in the {list=}")
 #print(f" Check : {sum(list)}")      # jast Check
@@ -46,7 +46,7 @@ def sum(num):
     return summa
 
 sum = print(f' For   : {sum(list)}')
-#################################################
+# #################################################
 def sums(num):
     count = 0
     summa = 0
@@ -57,3 +57,67 @@ def sums(num):
         # print(count)
     return summa
 print(f' While : {sums(list)}')
+# #########################################################
+#############Recursion
+def recursion(sum):
+     if sum == []:
+         #recursion(sum[len(sum)-1])
+         return 0
+     else:
+         summ = recursion(sum[1:])
+         summ += sum[0]
+         return summ                     #sum[0]  + recursion(sum[len(sum)+1])
+
+s =(recursion(list))
+print(f" Recursion {s}")
+#########################################################
+#### Fibonachy
+def FibonachyREC(n):
+    if n == 1 or n == 2:
+        return 1
+
+    return FibonachyREC(n - 1) + FibonachyREC(n - 2)
+f = int(input("num figure Fibonachi:  "))
+print(FibonachyREC(f))
+#############################################################
+p = "помідор"
+m = "м'ясо"
+c = "сир"
+b = "хліб"
+
+snec = "bun"
+
+def decorator(fu):
+    def wrapper():
+       print(snec)            # wrapper
+       result = fu()
+       print(snec)            # wrapper
+       return result
+    return wrapper
+
+
+@decorator
+def one():
+    print(p)
+    return None
+
+@decorator
+def two():
+    print(m)
+    return None
+
+@decorator
+def three():
+    print(c)
+    return None
+
+@decorator
+def fore():
+    print(b)
+    return None
+
+
+o = one()
+t = two()
+th =three()
+f = fore()
