@@ -59,6 +59,7 @@ def sums(num):
 print(f' While : {sums(list)}')
 # #########################################################
 #############Recursion
+list = [7, 57, 32, 98, 70, 958]
 def recursion(sum):
      if sum == []:
          #recursion(sum[len(sum)-1])
